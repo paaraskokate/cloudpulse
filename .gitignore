@@ -1,0 +1,25 @@
+# environments / caches (never publish)
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+
+# local docs & demo material (kept off the repo)
+README.md
+README-AWS-RUNBOOK.md
+CloudPulse-Demo-Script.docx
+
+# re-trainable model binaries (one command regenerates them)
+models/*.joblib
+
+# session logs & regenerable bulk data
+data/audit_log.jsonl
+data/real_training_wait_log.txt
+data/synthetic_cpu.csv
+data/export_evidence*.txt
+*.log
+
+# OS noise
+Thumbs.db
+desktop.ini

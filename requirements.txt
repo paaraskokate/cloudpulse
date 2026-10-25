@@ -1,0 +1,11 @@
+# CloudPulse dependencies (install: pip install -r requirements.txt)
+boto3>=1.34,<2
+botocore>=1.34,<2
+pandas>=2.0,<3
+numpy>=1.24,<3
+scikit-learn>=1.3,<2
+streamlit>=1.35,<2
+joblib>=1.3,<2
+
+# Optional: uncomment to auto-load .env values inside app.py
+# python-dotenv>=1.0,<2

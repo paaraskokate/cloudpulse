@@ -1,0 +1,11 @@
+{
+  "source": "aws-cloudwatch",
+  "instance_id": "i-0bca61c1a421d6033",
+  "region": "ap-southeast-2",
+  "window_hours": 6.0,
+  "period_seconds": 300,
+  "statistic": "Average",
+  "collected_at_utc": "2026-10-25T10:09:37.013895+00:00",
+  "rows": 40,
+  "newest_sample_utc": "2026-10-25 10:04:00+00:00"
+}

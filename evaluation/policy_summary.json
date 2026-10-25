@@ -1,0 +1,53 @@
+{
+  "generated_at_utc": "2026-10-24T19:04:36.964199+00:00",
+  "options": {
+    "interval_minutes": 5.0,
+    "rate_usd_per_instance_hour": 0.0058,
+    "cost_is_estimate": true,
+    "model_used": true,
+    "forecast_mae": 1.762,
+    "forecast_rmse": 3.6833,
+    "persistence_mae": 3.7283,
+    "persistence_rmse": 6.8946,
+    "bounds": {
+      "min": 1,
+      "max": 2
+    },
+    "alert_cpu": 70.0
+  },
+  "summary": {
+    "fixed": {
+      "samples": 852,
+      "avg_recommended_capacity": 1.0,
+      "instance_hours": 71.0,
+      "estimated_cost_usd": 0.4118,
+      "scale_up_events": 0,
+      "scale_down_events": 0,
+      "bounds_hits": 0,
+      "fallback_events": 0,
+      "median_samples_to_react": null
+    },
+    "reactive": {
+      "samples": 852,
+      "avg_recommended_capacity": 1.501,
+      "instance_hours": 106.583,
+      "estimated_cost_usd": 0.6182,
+      "scale_up_events": 19,
+      "scale_down_events": 4,
+      "bounds_hits": 0,
+      "fallback_events": 0,
+      "median_samples_to_react": 0.0
+    },
+    "predictive": {
+      "samples": 852,
+      "avg_recommended_capacity": 1.441,
+      "instance_hours": 102.333,
+      "estimated_cost_usd": 0.5935,
+      "scale_up_events": 8,
+      "scale_down_events": 3,
+      "bounds_hits": 0,
+      "fallback_events": 8,
+      "median_samples_to_react": 0.0
+    }
+  }
+}

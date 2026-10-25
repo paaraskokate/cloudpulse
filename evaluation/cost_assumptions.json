@@ -1,0 +1,10 @@
+{
+  "_comment": "EDIT ME - estimates for a student demo. Verify current regional prices at https://aws.amazon.com/ec2/pricing/ before reporting any cost. All numbers produced with these rates must be labelled ESTIMATES.",
+  "currency": "USD",
+  "unit": "USD per instance-hour",
+  "instance_hour_cost_usd": {
+    "ap-south-1": { "t3.micro": 0.0058, "t2.micro": 0.0058 },
+    "us-east-1": { "t3.micro": 0.0052, "t2.micro": 0.0052 }
+  },
+  "default_hourly_rate_usd": 0.0058
+}

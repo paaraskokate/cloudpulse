@@ -1,0 +1,14 @@
+{
+  "mae": 3.6134,
+  "rmse": 6.6142,
+  "persistence_mae": 3.5847,
+  "persistence_rmse": 6.8232,
+  "n_train": 681,
+  "n_test": 171,
+  "train_start_utc": "2026-01-05 01:00:00+00:00",
+  "train_end_utc": "2026-01-07 09:40:00+00:00",
+  "test_start_utc": "2026-01-07 09:45:00+00:00",
+  "test_end_utc": "2026-01-07 23:55:00+00:00",
+  "forecast_interval_minutes": 5.0,
+  "n_features": 17
+}
