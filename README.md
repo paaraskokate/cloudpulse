@@ -706,7 +706,7 @@ The project demonstrates the application of cloud monitoring, machine learning, 
 
 The implementation emphasizes data provenance, reproducible evaluation, bounded recommendations, and safe operation.
 
----
+
 
 <p align="center">
   <b>CloudPulse 📡</b><br>
