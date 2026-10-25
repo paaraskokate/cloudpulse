@@ -714,8 +714,3 @@ The implementation emphasizes data provenance, reproducible evaluation, bounded 
 </p>
 ```
 
-### Before you commit
-
-Check that the file and folder names in the “Repository Structure” section match the actual contents of your GitHub repository. Some CSV files, model artifacts, and audit logs are generated only after running the project, so they may not exist in a fresh clone.
-
-Once you've pasted the Markdown into GitHub's `README.md` editor, use the Preview tab to check the formatting and then commit the changes.
